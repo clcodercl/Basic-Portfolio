@@ -1,6 +1,12 @@
 
 
 .body {
+	margin-top:0;
+	margin-bottom:0;
+	margin-right:auto;
+	margin-left:auto;
+	width:600px;
+	background-image: url("concrete_seamless.png");
     
 }
 
@@ -14,8 +20,27 @@
 	background-image: url("concrete_seamless.png");
 }
 
+.header-container {
+	height:15%;
+	width:100%;
+	margin-top:0px;
+	margin-bottom:0px;
+	background-color:#eee;
+	text-align:right;
+	display:inline-block;
+
+}
+
 .header {
-	
+    height:15%;
+	width:30%;
+	position:left;
+	margin-top:0px;
+	margin:none;
+	background-color:#4aaaa5;
+	text-align:center;
+	display:block;
+	padding:15px;	
 
 }
 
