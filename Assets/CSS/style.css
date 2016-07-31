@@ -1,61 +1,155 @@
+body {
+	background: url("../images/concrete_seamless.png");
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: grey;
+	margin: 10px 10px 10px -5px;
+	padding: 5px;
+}
 
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
 
-.body {
-	margin-top:0;
-	margin-bottom:0;
-	margin-right:auto;
-	margin-left:auto;
-	width:600px;
-	background-image: url("concrete_seamless.png");
-    
+.top {
+	background-color: white;
+	overflow: hidden;
+	width: 100:;
+	overflow: hidden;
+	margin-top: -15px;
+	margin-bottom: -5px;
+	border-bottom: 3px solid #eee
+}
+
+.name {
+	float: left;
+	color: white;
+	background-color: #4aaaa5;
+	overflow: hidden;
+	margin-left: 45px;
+	margin-top: -5px;
+	margin-bottom: -4px;
+	padding: 15px 8px 15px 8px;
+}
+
+#line {
+	background-color: #eeeeee;
+	height: 2px;
+	margin-bottom: 10px;
+}
+
+nav {
+	float: right;
+ 	color: grey;	
+	background-color: #fff;
+	text-decoration: none;
+	margin-right: 5px;
+	overflow: hidden;
 }
 
 
-.container {
-	margin-top:0;
-	margin-bottom:0;
-	margin-right:auto;
-	margin-left:auto;
-	width:600px;
-	background-image: url("concrete_seamless.png");
+.navlinks li{
+	float: right;
+	display: inline;
+	color: grey;
+	background-color: white;
+	font-size: 12px;
+	text-decoration: none;
+	padding: 20px;
 }
 
-.header-container {
-	height:15%;
-	width:100%;
-	margin-top:0px;
-	margin-bottom:0px;
-	background-color:#eee;
-	text-align:right;
-	display:inline-block;
-
+.navlinks a{
+	color: grey;
+	text-decoration: none;
 }
 
-.header {
-    height:15%;
-	width:30%;
-	position:left;
-	margin-top:0px;
-	margin:none;
-	background-color:#4aaaa5;
-	text-align:center;
-	display:block;
-	padding:15px;	
 
+.maincontent {
+	background-color: white;
+	color: grey; 
+	width: 650px;
+	max-width: 65%;
+	overflow: hidden;
+	float: left;
+	margin: 32px;
+	font-family: 'Gerogia', Times, Times New Roman, serif;
 }
 
-.about {
-
+.portfolio {
+	float: right;
+	display: inline;
+	margin: 20px;
+	padding: 20px;
+	float: left;
 }
 
-.image {
+.picture {
+	display: inline-block;
+	position: relative;
+	margin: 20px;
+	}
 
+
+.picture h3 {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: white;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 5px;
+	bottom: 3px;
 }
 
-.connect {
+.contact {
+	margin: 10px;
+	padding: 20px;
+}
+.contact input {
+	width: 80%;
+}
 
+.aboutme {
+	background-color: white;
+	color: grey; 
+	max-width: 65%;
+	overflow: hidden;
+	float: left;
+	margin: 8px;
+	padding: 4px;
+	font-family: 'Arial', 'Helvetica-Neue', Helvetica, sans-serif;
+}
+
+#chrispic {
+	float: left;
+	margin: 10px;
+}
+
+
+.sidebar {
+	display: inline;
+	float: right;
+	width: 250px;
+	height: 150px;
+	padding: 10px;
+	background-color: white;
+	color: #4aaaa5;
+	text-align: center;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
 }
 
 .footer {
-
+	overflow: hidden;
+	background-color: #666;
+	width: 100%;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	font-size: 12px;
+	border-top: 4px solid #4aaaa5;
+	position: fixed;
+	bottom: 0;
 }
