@@ -14,8 +14,9 @@ h1, h2, h3 {
 .top {
 	background-color: white;
 	overflow: hidden;
-	width: 100
-	margin-top: 25px;
+	width: 100:;
+	overflow: hidden;
+	margin-top: -15px;
 	margin-bottom: -5px;
 	border-bottom: 3px solid #eee
 }
@@ -31,13 +32,18 @@ h1, h2, h3 {
 	padding: 15px 8px 15px 8px;
 }
 
+#line {
+	background-color: #eeeeee;
+	height: 2px;
+	margin-bottom: 10px;
+}
 
 nav {
 	float: right;
  	color: grey;	
 	background-color: #fff;
 	text-decoration: none;
-	margin-right: 15px;
+	margin-right: 5px;
 	overflow: hidden;
 }
 
@@ -58,7 +64,7 @@ nav {
 }
 
 
-.maincontent {
+.main {
 	background-color: white;
 	color: grey; 
 	width: 650px;
@@ -87,7 +93,7 @@ nav {
 	background-color: #4aaaa5;
 	color: white;
 	left: 0;
-	right: 0;
+right: 0;
 	text-align: center;
 	padding: 5px;
 	bottom: 3px;
@@ -141,6 +147,7 @@ nav {
 	text-align: center;
 	padding: 15px;
 	font-size: 12px;
+	border-top: 4px solid #4aaaa5;
 	position: fixed;
 	bottom: 0;
 }
